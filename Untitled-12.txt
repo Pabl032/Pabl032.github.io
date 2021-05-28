@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<голова>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Совместимый" контент="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>Документ</title>
+</head>
+<тело>
+    <h1>Конспект курса</h1>
+   <p class="learned-ok">Парные теги.</p>
+   <p class="learned-ok">Одиночные теги.</p>
+   <p class="learned-ok">Атрибуты тегов.</p>
+   <p class="learned-ok">Инлайновые (встроенные) стили.</p>
+   <p class="learning-in-progress">Внешние стили.</p>
+   <p class="not-learned">Стилизация по классам.</p>
+   </body>
+   <стиль>
+    тело {
+    семейство шрифтов: Tahoma, serif;
+    }
+    h1 {
+    цвет: #999999;
+    }
+ .узнал-ок {
+    цвет: зеленый;
+    }
+ .обучение в процессе обучения {
+    цвет: оранжевый;
+    }
+ ...не-научился {
+    цвет: красный;
+    }
+    </стиль>
+    <скрипт>
+        document.getElementsByTagId("name").style = "text-decoration:line-through";
+    </script>
+</html>
